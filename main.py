@@ -7,7 +7,7 @@ class Car:
 class Dealership:
     def __init__(self, owner, year, make, model):
         self.owner = owner
-        self.dealership = Dealership(year, make, model)
+        self.car = Car(year, make, model)
 
     def speak(self):
         print(f"I am a {self.dealership.year} {self.dealership.make} {self.dealership.model}. I am owned by {self.owner}.")
