@@ -12,7 +12,9 @@ class Car:
         print(f"I am a {self.dealership.year} {self.dealership.make} {self.dealership.model} and I am owned by {self.owner}")
 
 
-Mercedes = Car("Johnny", "2023", "Mercedes", "Maybach S600 AMG")
+mercedes = Car("Johnny", "2023", "Mercedes", "Maybach S600 AMG")
+tesla = Car("Tyler", "2023", "Tesla", "X")
+beamer = Car("Jonathan", "2023", "BWM", "7 Series")
 
 
 # Composition HW
