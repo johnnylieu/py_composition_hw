@@ -3,9 +3,6 @@ class Car:
         self.year = year
         self.make = make
         self.model = model
-    
-    def talk():
-        print(f"Thank you for visiting our dealership!\n")
 
 class Dealership:
     def __init__(self, owner, year, make, model):
@@ -13,9 +10,8 @@ class Dealership:
         self.car = Car(year, make, model)
 
     def speak(self):
-        print(f"\n{self.owner} just bought our {self.car.year} {self.car.make} {self.car.model}.")
-    
-        return Car.talk()
+        print(f"\n{self.owner} just bought our {self.car.year} {self.car.make} {self.car.model}.\n")
+
 
 Johnny = Dealership("Johnny", "2023", "Mercedes", "Maybach S600 AMG").speak()
 Tyler = Dealership("Tyler", "2023", "Tesla", "Model X").speak()
