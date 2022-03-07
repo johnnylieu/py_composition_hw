@@ -10,7 +10,7 @@ class Dealership:
         self.car = Car(year, make, model)
 
     def speak(self):
-        print(f"I am a {self.dealership.year} {self.dealership.make} {self.dealership.model}. I am owned by {self.owner}.")
+        print(f"I am a {self.car.year} {self.car.make} {self.car.model}. I am owned by {self.owner}.")
 
 Johnny = Dealership("Johnny", "2023", "Mercedes", "Maybach S600 AMG").speak()
 
