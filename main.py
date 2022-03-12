@@ -1,42 +1,44 @@
 class Honda:
-    def __init__(self, model, make, owner):
+    def __init__(self, year, model, make, owner):
+        self.year = year
         self.model = model
         self.make = make
         self.owner = owner
-        print(f"the owner of this {self.model} {self.make} is {self.owner}")
+        print(f"The owner of this {self.year} {self.model} {self.make} is {self.owner}")
     
     def horn(self):
-        print(f"{self.model} {self.make} horn activated, beep beep")
+        print(f"{self.year} {self.model} {self.make} horn activated, beep beep")
     
     def gas(self):
-        print(f"you stepped on {self.model} {self.make}'s gas, speed increasing")
+        print(f"You stepped on {self.year} {self.model} {self.make}'s gas, speed increasing")
 
     def brake(self):
-        print(f"you stepped on {self.model} {self.make}'s brake, speed decreasing")
+        print(f"You stepped on {self.year} {self.model} {self.make}'s brake, speed decreasing")
 
 
 class Toyota:
-    def __init__(self, model, make, owner):
+    def __init__(self, year, model, make, owner):
+        self.year = year
         self.model = model
         self.make = make
         self.owner = owner
-        print(f"the owner of this {self.model} {self.make} is {self.owner}")
+        print(f"the owner of this {self.year} {self.model} {self.make} is {self.owner}")
 
     def horn(self):
-        print(f"{self.model} {self.make} horn activated, beep beep")
+        print(f"{self.year} {self.model} {self.make} horn activated, beep beep")
     
     def gas(self):
-        print(f"you stepped on {self.model} {self.make}'s gas, speed increasing")
+        print(f"You stepped on {self.year} {self.model} {self.make}'s gas, speed increasing")
 
     def brake(self):
-        print(f"you stepped on {self.model} {self.make}'s brake, speed decreasing")
+        print(f"You stepped on {self.year} {self.model} {self.make}'s brake, speed decreasing")
 
 class Car:
     def __init__ (self, honda, toyota):
         self.honda = honda
         self.toyota = toyota
 
-cars = Car(Honda("Honda", "Civic", "Somebody"), Toyota("Toyota", "Camry", "Somebody Else"))
+cars = Car(Honda("2022", "Honda", "Civic", "Somebody"), Toyota("2021", "Toyota", "Camry", "Somebody Else"))
 
 cars.honda.horn()
 cars.honda.gas()
