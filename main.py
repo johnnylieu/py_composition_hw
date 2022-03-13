@@ -4,16 +4,15 @@ class Honda:
         self.model = model
         self.make = make
         self.owner = owner
-        print(f"The owner of this {self.year} {self.model} {self.make} is {self.owner}")
     
     def horn(self):
         print(f"{self.year} {self.model} {self.make} horn activated, beep beep")
     
     def gas(self):
-        print(f"You stepped on {self.year} {self.model} {self.make}'s gas, speed increasing")
+        print(f"{self.owner} stepped on {self.year} {self.model} {self.make}'s gas, speed increasing")
 
     def brake(self):
-        print(f"You stepped on {self.year} {self.model} {self.make}'s brake, speed decreasing")
+        print(f"{self.owner} stepped on {self.year} {self.model} {self.make}'s brake, speed decreasing")
 
 
 class Toyota:
@@ -22,7 +21,6 @@ class Toyota:
         self.model = model
         self.make = make
         self.owner = owner
-        print(f"the owner of this {self.year} {self.model} {self.make} is {self.owner}")
 
     def horn(self):
         print(f"{self.year} {self.model} {self.make} horn activated, beep beep")
