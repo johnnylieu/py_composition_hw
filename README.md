@@ -12,7 +12,7 @@ They should have a horn, gas, brake, and parking brake function.
 # Usage
 Created class Honda & class Toyota
 
-![class Honda and class Toyota](https://raw.githubusercontent.com/johnnylieu/py_composition_hw/main/screenshots/class%20Honda%20and%20Toyota.bmp "class Honda and class Toyota")
+![class Honda and class Toyota](https://raw.githubusercontent.com/johnnylieu/py_composition_hw/main/screenshots/class%20Honda%20and%20Toyota2.bmp "class Honda and class Toyota")
 
 Created class Dealership (Dealership "HAS A" Honda & Toyota)
 
