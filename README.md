@@ -20,4 +20,6 @@ Created class Dealership (Dealership "HAS A" Honda & Toyota)
 
 Output
 
-![output](https://raw.githubusercontent.com/johnnylieu/py_composition_hw/main/screenshots/passing%20in%20paramters%20and%20calling%20functions.bmp?token=GHSAT0AAAAAABSOHRVTXXZOK36WDGJ7VMKWYRNGZ2Q "output")
+![passing in parameters and calling functions](https://raw.githubusercontent.com/johnnylieu/py_composition_hw/main/screenshots/passing%20in%20paramters%20and%20calling%20functions.bmp?token=GHSAT0AAAAAABSOHRVTXXZOK36WDGJ7VMKWYRNGZ2Q "passing in parameters and calling functions")
+
+![output](https://raw.githubusercontent.com/johnnylieu/py_composition_hw/main/screenshots/output.bmp?token=GHSAT0AAAAAABSOHRVTV2P2MPWUDSO3CBTSYRNG32A "output")
