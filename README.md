@@ -22,4 +22,4 @@ Output
 
 ![passing in parameters and calling functions](https://raw.githubusercontent.com/johnnylieu/py_composition_hw/main/screenshots/passing%20in%20paramters%20and%20calling%20functions.bmp "passing in parameters and calling functions")
 
-![output](https://raw.githubusercontent.com/johnnylieu/py_composition_hw/main/screenshots/output2.bmp "output")
+![output](https://raw.githubusercontent.com/johnnylieu/py_composition_hw/main/screenshots/output.bmp "output")
