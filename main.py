@@ -6,7 +6,7 @@ class Honda:
         self.owner = owner
     
     def horn(self):
-        print(f"{self.year} {self.model} {self.make} horn activated, beep beep")
+        print(f"\n{self.year} {self.model} {self.make} horn activated, beep beep")
     
     def gas(self):
         print(f"{self.owner} stepped on {self.year} {self.model} {self.make}'s gas, speed increasing")
@@ -23,7 +23,7 @@ class Toyota:
         self.owner = owner
 
     def horn(self):
-        print(f"{self.year} {self.model} {self.make} horn activated, beep beep")
+        print(f"\n{self.year} {self.model} {self.make} horn activated, beep beep")
     
     def gas(self):
         print(f"{self.owner} stepped on {self.year} {self.model} {self.make}'s gas, speed increasing")
